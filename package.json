@@ -1,0 +1,29 @@
+{
+  "name": "are-you-a-cop",
+  "description": "Blocks cops from visiting your site. If they are they have to tell you.",
+  "version": "0.0.1",
+  "homepage": "http://github.com/wearefractal/are-you-a-cop",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wearefractal/are-you-a-cop.git"
+  },
+  "author": "Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
+  "main": "./index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jshint": "^2.4.1",
+    "jshint-stylish": "^0.2.0"
+  },
+  "scripts": {
+    "test": "jshint . --reporter node_modules/jshint-stylish/stylish.js --exclude node_modules"
+  },
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/wearefractal/are-you-a-cop/raw/master/LICENSE"
+    }
+  ]
+}
