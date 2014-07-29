@@ -2,10 +2,10 @@
   "name": "are-you-a-cop",
   "description": "Blocks cops from visiting your site. If they are they have to tell you.",
   "version": "0.0.1",
-  "homepage": "http://github.com/wearefractal/are-you-a-cop",
+  "homepage": "http://github.com/contra/are-you-a-cop",
   "repository": {
     "type": "git",
-    "url": "git://github.com/wearefractal/are-you-a-cop.git"
+    "url": "git://github.com/contra/are-you-a-cop.git"
   },
   "author": "Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
   "main": "./index.js",
