@@ -41,6 +41,10 @@ app.use(copCheck(true));
 
 Around the world there is one universal constant: If you ask a cop if they are a cop, they have to tell you. What this module does is attach an "X-Are-You-A-Cop" header (RFC520520) to each response. If the requesting party sends back a "X-I-Am-A-Cop" header the request will be flagged as a cop, and you can choose to allow or deny it. Normal users will not be affected by this, but all cops will need to modify their browser to send this legally mandated header.
 
+#### What?
+
+This is satire.
+
 [gittip-url]: https://www.gittip.com/WeAreFractal/
 [gittip-image]: http://img.shields.io/gittip/WeAreFractal.svg
 
